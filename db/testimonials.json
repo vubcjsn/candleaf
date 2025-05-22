@@ -1,0 +1,60 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Luisa",
+      "authorImage": "/images/testimonials/author-1.jpg",
+      "rating": 4.2,
+      "testimonial": "I love it! No more air fresheners."
+    },
+    {
+      "id": 2,
+      "author": "James",
+      "authorImage": "/images/testimonials/author-2.jpg",
+      "rating": 4.8,
+      "testimonial": "The product exceeded my expectations. Highly recommended!"
+    },
+    {
+      "id": 3,
+      "author": "Aisha",
+      "authorImage": "/images/testimonials/author-3.jpg",
+      "rating": 5.0,
+      "testimonial": "Amazing experience from start to finish."
+    },
+    {
+      "id": 4,
+      "author": "Carlos",
+      "authorImage": "/images/testimonials/author-4.jpg",
+      "rating": 4.5,
+      "testimonial": "Fast delivery and great customer service."
+    },
+    {
+      "id": 5,
+      "author": "Emily",
+      "authorImage": "/images/testimonials/author-5.jpg",
+      "rating": 4.7,
+      "testimonial": "I've been using it for a month, and I can't go back!"
+    },
+    {
+      "id": 6,
+      "author": "Tomáš",
+      "authorImage": "/images/testimonials/author-6.jpg",
+      "rating": 3.9,
+      "testimonial": "Good, but I think there's still room for improvement."
+    },
+    {
+      "id": 7,
+      "author": "Sophia",
+      "authorImage": "/images/testimonials/author-7.jpg",
+      "rating": 4.9,
+      "testimonial": "Simply the best purchase I made this year."
+    },
+    {
+      "id": 8,
+      "author": "Mikhail",
+      "authorImage": "/images/testimonials/author-8.jpg",
+      "rating": 4.3,
+      "testimonial": "Very useful and easy to use. Will recommend to friends."
+    }
+  ]
+}

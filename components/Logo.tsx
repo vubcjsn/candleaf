@@ -1,4 +1,4 @@
-import LogoImage from "@/assets/images/logo.png";
+import LogoImage from "@/assets/images/logo.svg";
 import Image from "next/image";
 
 function Logo() {
