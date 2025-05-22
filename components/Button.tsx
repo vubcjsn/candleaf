@@ -8,7 +8,7 @@ type ButtonProps =
     }
   | {
       type: "link";
-      href: string;
+      href?: never;
       children: React.ReactNode;
     };
 
