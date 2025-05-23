@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useCartStore } from "@/store/store"; // Убедитесь, что путь к вашему store верный
 
 interface Product {
   id: number;
@@ -19,17 +20,25 @@ interface Product {
 }
 
 export default function ProductClient({ product }: { product: Product }) {
-  const [quantity, setQuantity] = useState(1);
-  const [addedToCart, setAddedToCart] = useState(false);
+  // Получаем необходимые функции и состояние из хранилища корзины
+  const addToCart = useCartStore((state) => state.addToCart);
+  const cartItems = useCartStore((state) => state.cart);
 
+  // Локальное состояние для количества товара, который пользователь хочет добавить
+  const [quantity, setQuantity] = useState(1);
+  const [addedToCartFeedback, setAddedToCartFeedback] = useState(false);
+
+  // Функция для добавления товара в корзину
   const handleAddToCart = () => {
-    console.log("Добавлено в корзину:", { productId: product.id, quantity });
-    setAddedToCart(true);
-    setTimeout(() => setAddedToCart(false), 2000);
+    addToCart({ ...product, quantity }); // Передаем копию объекта продукта и текущее количество
+    setAddedToCartFeedback(true);
+    setTimeout(() => setAddedToCartFeedback(false), 2000);
   };
 
-  const increment = () => setQuantity((q) => q + 1);
-  const decrement = () => setQuantity((q) => (q > 1 ? q - 1 : 1));
+  // Функции для увеличения и уменьшения количества
+  const increment = () => setQuantity((prevQuantity) => prevQuantity + 1);
+  const decrement = () =>
+    setQuantity((prevQuantity) => (prevQuantity > 1 ? prevQuantity - 1 : 1));
 
   return (
     <div className="py-14 flex flex-col md:flex-row gap-8">
@@ -40,6 +49,7 @@ export default function ProductClient({ product }: { product: Product }) {
             alt={product.title}
             width={300}
             height={300}
+            className="object-contain"
           />
         </div>
         <div className="text-center">
@@ -56,7 +66,7 @@ export default function ProductClient({ product }: { product: Product }) {
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div>
             <span className="font-medium text-3xl text-[#56B280] inline-block mb-8">
-              {product.price}$
+              ${product.price}
             </span>
             <div className="flex flex-col">
               <span className="mb-2 font-medium">Quantity</span>
@@ -87,7 +97,7 @@ export default function ProductClient({ product }: { product: Product }) {
             >
               Add To Cart
             </button>
-            {addedToCart && (
+            {addedToCartFeedback && (
               <p className="text-green-600 mt-2">✔ Product added to cart</p>
             )}
           </div>
