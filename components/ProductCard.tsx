@@ -13,7 +13,7 @@ interface ProductCardProps {
 function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="shadow-lg rounded-sm overflow-hidden hover:scale-110 transition duration-300 ease-in-out">
-      <Link href={`/product/${product.id}`}>
+      <Link href={`/products/${product.id}`}>
         <div className="bg-gray-100 flex justify-items-center p-8">
           <Image
             src={product.image}

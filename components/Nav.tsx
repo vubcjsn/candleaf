@@ -4,7 +4,7 @@ import React from "react";
 function Nav() {
   return (
     <nav className="flex items-center gap-x-8">
-      <Link href="/shop">Shop</Link>
+      <Link href="/products">Shop</Link>
       <Link href="/about">About</Link>
       <Link href="/contact">Contact</Link>
     </nav>

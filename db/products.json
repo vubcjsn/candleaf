@@ -5,112 +5,224 @@
       "title": "Spiced Mint",
       "price": 9.99,
       "description": "A refreshing mint flavor with a subtle spicy kick to energize your day.",
-      "image": "/images/products/image-1.png"
+      "image": "/images/products/image-1.png",
+      "characteristics": {
+        "wax": "Top grade Soy wax that delivers a smokeless, consistent burn",
+        "fragrance": "Premium quality ingredients with natural essential oils",
+        "burning time": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
     },
     {
       "id": 2,
       "title": "Citrus Breeze",
       "price": 11.49,
       "description": "A sunny blend of orange, lemon, and lime for a zesty energy boost.",
-      "image": "/images/products/image-2.png"
+      "image": "/images/products/image-2.png",
+      "characteristics": {
+        "wax": "Natural soy wax for clean burning",
+        "fragrance": "Citrus essential oils with lemon and lime extracts",
+        "burning time": "65-70 hours",
+        "dimensions": "9cm x 5cm",
+        "weight": "390g"
+      }
     },
     {
       "id": 3,
       "title": "Vanilla Oak",
       "price": 12.99,
       "description": "Rich vanilla flavor with warm woody undertones, perfect for cozy evenings.",
-      "image": "/images/products/image-3.png"
+      "image": "/images/products/image-3.png",
+      "characteristics": {
+        "wax": "Blended soy and coconut wax",
+        "fragrance": "Vanilla bean with oakwood essence",
+        "burning time": "75-80 hours",
+        "dimensions": "11cm x 6cm",
+        "weight": "420g"
+      }
     },
     {
       "id": 4,
       "title": "Berry Twist",
       "price": 10.99,
       "description": "A juicy mix of wild berries with a tangy blackcurrant finish.",
-      "image": "/images/products/image-4.png"
+      "image": "/images/products/image-4.png",
+      "characteristics": {
+        "wax": "Pure soy wax for a natural burn",
+        "fragrance": "Berry extract blend with blackcurrant oil",
+        "burning time": "70 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
     },
     {
       "id": 5,
       "title": "Coconut Dream",
       "price": 13.5,
       "description": "Smooth coconut flavor with hints of tropical fruits.",
-      "image": "/images/products/image-5.png"
+      "image": "/images/products/image-5.png",
+      "characteristics": {
+        "wax": "Coconut blend wax for tropical scents",
+        "fragrance": "Coconut and tropical fruit infusion",
+        "burning time": "60-65 hours",
+        "dimensions": "9.5cm x 5.5cm",
+        "weight": "410g"
+      }
     },
     {
       "id": 6,
       "title": "Caramel Swirl",
       "price": 9.49,
       "description": "Sweet caramel taste with a touch of sea salt.",
-      "image": "/images/products/image-6.png"
+      "image": "/images/products/image-6.png",
+      "characteristics": {
+        "wax": "Soy wax with caramel color",
+        "fragrance": "Salted caramel with vanilla notes",
+        "burning time": "68-72 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "395g"
+      }
     },
     {
       "id": 7,
       "title": "Lavender Chill",
       "price": 10.25,
       "description": "Relaxing lavender aroma with a cool minty aftertaste.",
-      "image": "/images/products/image-7.png"
+      "image": "/images/products/image-7.png",
+      "characteristics": {
+        "wax": "Calming soy wax blend",
+        "fragrance": "Lavender oil with mint extract",
+        "burning time": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
     },
     {
       "id": 8,
       "title": "Tropical Punch",
       "price": 11.75,
       "description": "An exotic blend of pineapple, mango, and passion fruit.",
-      "image": "/images/products/image-8.png"
+      "image": "/images/products/image-8.png",
+      "characteristics": {
+        "wax": "Tropical soy blend wax",
+        "fragrance": "Pineapple, mango, and passion fruit oils",
+        "burning time": "65-70 hours",
+        "dimensions": "9.8cm x 5cm",
+        "weight": "405g"
+      }
     },
     {
       "id": 9,
       "title": "Honey Lemon",
       "price": 10.49,
       "description": "Natural honey sweetness paired with refreshing lemon.",
-      "image": "/images/products/image-1.png"
+      "image": "/images/products/image-1.png",
+      "characteristics": {
+        "wax": "Beeswax and soy wax combo",
+        "fragrance": "Honey essence with lemon zest",
+        "burning time": "70 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
     },
     {
       "id": 10,
       "title": "Choco Hazelnut",
       "price": 13.25,
       "description": "Creamy chocolate mixed with roasted hazelnuts — a sweet classic.",
-      "image": "/images/products/image-2.png"
+      "image": "/images/products/image-2.png",
+      "characteristics": {
+        "wax": "Dark soy wax blend",
+        "fragrance": "Chocolate and hazelnut essence",
+        "burning time": "75 hours",
+        "dimensions": "11cm x 5.5cm",
+        "weight": "420g"
+      }
     },
     {
       "id": 11,
       "title": "Peach Harmony",
       "price": 9.95,
       "description": "Delicate peach flavor with subtle floral notes.",
-      "image": "/images/products/image-3.png"
+      "image": "/images/products/image-3.png",
+      "characteristics": {
+        "wax": "Light soy wax with peach tint",
+        "fragrance": "Peach blossom with floral blend",
+        "burning time": "65 hours",
+        "dimensions": "9.5cm x 5cm",
+        "weight": "390g"
+      }
     },
     {
       "id": 12,
       "title": "Green Apple Zing",
       "price": 10.1,
       "description": "Crisp green apple taste with a lively tangy twist.",
-      "image": "/images/products/image-4.png"
+      "image": "/images/products/image-4.png",
+      "characteristics": {
+        "wax": "Zesty green soy wax",
+        "fragrance": "Green apple extract with lemon twist",
+        "burning time": "68 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "395g"
+      }
     },
     {
       "id": 13,
       "title": "Almond Spice",
       "price": 12.3,
       "description": "Nutty almond flavor blended with a hint of warm cinnamon.",
-      "image": "/images/products/image-5.png"
+      "image": "/images/products/image-5.png",
+      "characteristics": {
+        "wax": "Warm-toned soy wax blend",
+        "fragrance": "Roasted almond and cinnamon bark",
+        "burning time": "72-76 hours",
+        "dimensions": "10.5cm x 5.5cm",
+        "weight": "410g"
+      }
     },
     {
       "id": 14,
       "title": "Blueberry Frost",
       "price": 13.99,
       "description": "Fresh blueberry flavor with a subtle menthol finish.",
-      "image": "/images/products/image-6.png"
+      "image": "/images/products/image-6.png",
+      "characteristics": {
+        "wax": "Cool blue soy wax",
+        "fragrance": "Blueberry and menthol oil",
+        "burning time": "70-75 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
     },
     {
       "id": 15,
       "title": "Pineapple Glow",
       "price": 11.3,
       "description": "Sweet pineapple flavor brightened with a splash of lime.",
-      "image": "/images/products/image-7.png"
+      "image": "/images/products/image-7.png",
+      "characteristics": {
+        "wax": "Bright yellow soy wax",
+        "fragrance": "Pineapple and lime essence",
+        "burning time": "67-70 hours",
+        "dimensions": "9.5cm x 5cm",
+        "weight": "395g"
+      }
     },
     {
       "id": 16,
       "title": "Mango Tango",
       "price": 12.7,
       "description": "A bold and juicy dance of mango and citrus flavors.",
-      "image": "/images/products/image-8.png"
+      "image": "/images/products/image-8.png",
+      "characteristics": {
+        "wax": "Fruity blend soy wax",
+        "fragrance": "Mango and citrus oils",
+        "burning time": "70 hours",
+        "dimensions": "10cm x 5cm",
+        "weight": "400g"
+      }
     }
   ]
 }
