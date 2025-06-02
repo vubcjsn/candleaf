@@ -13,7 +13,6 @@ export default function ContactPage() {
   return (
     <div className="max-w-5xl mx-auto p-8">
       <div className="flex gap-12">
-        {/* Левая колонка - Контакты */}
         <div className="w-1/2">
           <h1
             className="text-3xl font-bold mb-6 text-[#5BC08A] max-w-5xl mx-auto p-8 mt-10
@@ -45,7 +44,6 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Правая колонка - Адреса магазинов */}
         <div className="w-1/2">
           <h2 className="flex items-center text-3xl font-semibold mb-6 text-[#5BC08A] max-w-5xl mx-auto p-8 mt-10">
             <FiHome className="mr-2 text-[#5BC08A]" size={24} />

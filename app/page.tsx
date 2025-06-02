@@ -7,6 +7,7 @@ import { products } from "@/db/products.json";
 import { about } from "@/db/about.json";
 import AboutSection from "@/components/AboutSection";
 import CarouselSection from "@/components/CarouselSection";
+import DiscountModal from "@/components/DiscountModal";
 
 export default async function Home() {
   return (
@@ -34,6 +35,7 @@ export default async function Home() {
       </section>
       <AboutSection about={about} />
       <CarouselSection />
+      <DiscountModal />
     </>
   );
 }
